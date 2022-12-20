@@ -544,7 +544,7 @@
     opacity: 1;
   }
   
-  @media (max-width: 767px){
+  @media screen and(max-width: 767px){
     .card-work .card-inner{
         color: var(--color-white);
         position: relative;
