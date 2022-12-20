@@ -166,13 +166,13 @@
     background: var(--color-white);
   }
   
-  @media (max-width: 480px){
+  @media screen and (max-width: 480px){
     html{
         font-size: 57%;
     }
   }
 
-  @media (min-width: 481px) and (max-width: 767px){
+  @media (min-width: 481px), (max-width: 767px){
     html{
         font-size: 60%;
     }
